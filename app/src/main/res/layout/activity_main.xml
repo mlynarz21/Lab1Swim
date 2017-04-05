@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pl.edu.pwr.lab1mlynarczyk.lab1.MainActivity">
+
+<RelativeLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/massTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_marginLeft="@dimen/top_margin"
+        android:text="@string/get_mass"
+        android:textSize="@dimen/font_size"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/massEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/massTextView"
+        android:layout_alignParentStart="@id/massTextView"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal"
+        android:hint = "@string/your_mass" />
+
+    <TextView
+        android:id="@+id/heightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/massTextView"
+        android:layout_alignLeft="@id/massTextView"
+        android:text="@string/get_height"
+        android:textSize="@dimen/font_size"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/heightTextView"
+        android:layout_alignParentStart="@id/heightTextView"
+        android:layout_alignLeft="@id/massEditText"
+        android:inputType="numberDecimal"
+        android:hint="@string/your_height"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heightTextView"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_centerInParent="true"
+        android:theme="@style/MyButton"
+        android:text="@string/calculate"
+        android:textSize="@dimen/button_font"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/kgSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/button"
+        android:layout_marginTop="@dimen/switch_margin_top"
+        android:text="@string/kg_switch"
+        android:textColorHint="@color/colorPrimary"
+        android:theme="@style/MySwitch" />
+
+    <TextView
+        android:id="@+id/bmiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/your_bmi"
+        android:textSize="@dimen/font_size"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/bmiTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size"/>
+
+    <TextView
+        android:id="@+id/opinionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/messageTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/top_margin"
+        android:textSize="@dimen/small_font"/>
+
+</RelativeLayout>
+</ScrollView>

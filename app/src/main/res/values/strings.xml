@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name" translatable="false">Lab1</string>
+    <string name="your_mass">enter kg</string>
+    <string name="get_mass">Mass:</string>
+    <string name="your_height">enter m</string>
+    <string name="get_height">Height:</string>
+    <string name="calculate">Calculate!</string>
+    <string name="your_bmi">Your BMI is:</string>
+    <string name="kg_switch" translatable="false">kg/lb  </string>
+    <string name="imperial_mass">enter lb</string>
+    <string name="imperial_height">enter in</string>
+    <string name="input_err">wrong input</string>
+    <string name="severe_underweight">Severely underweight, You should immediately contact a specialist!</string>
+    <string name="underweight">Underweight, You should probably see a specialist in a nearest time</string>
+    <string name="normal">"Normal, Nothing to worry about, according to your BMI index everything is just fine</string>
+    <string name="overweight">Overweight, You should start to worry, you have just become overweight</string>
+    <string name="moderately_obese">Moderately obese, You should probably see a specialist in a nearest time</string>
+    <string name="severely_obese">Severely obese, You should contact a specialist!</string>
+    <string name="very_severely_obese">Very severely obese, You should immediately contact a specialist!</string>
+    <string name="about">About author:</string>
+    <string name="about_text">Hello, my name is Kamil, I am Computer Science student. I hope you enjoy my app ;)</string>
+    <string name="share">share</string>
+    <string name="about_toolbar">about</string>
+    <string name="save">save</string>
+    <string name="shared_preferences" translatable="false">USER_PREFERENCES</string>
+    <string name="preferences_mass" translatable="false">prefMass</string>
+    <string name="preferences_height" translatable="false">prefHeight</string>
+    <string name="preferences_check" translatable="false">prefCheck</string>
+    <string name="bmi_charsequence">bmi</string>
+    <string name="bmi_myshare">My BMI is:</string>
+    <string name="share_options">Sharing options</string>
+    <string name="data_save">Data saved succesfully!!</string>
+    <string name="retype">wrong data, please retype</string>
+
+</resources>

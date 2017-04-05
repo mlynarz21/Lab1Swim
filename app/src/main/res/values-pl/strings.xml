@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calculate">Oblicz!</string>
+    <string name="get_height">Wzrost:</string>
+    <string name="get_mass">Waga:</string>
+    <string name="imperial_height">wprowadź in</string>
+    <string name="imperial_mass">wprowadź lb</string>
+    <string name="input_err">złe dane</string>
+    <string name="moderately_obese">I stopień otyłości, Przemyśl wizytę u specjalisty</string>
+    <string name="your_height">wprowadź m</string>
+    <string name="your_mass">wprowadź kg</string>
+    <string name="underweight">niedowaga, Prawdopodobnie powinieneś zobaczyć się ze specjalistą</string>
+    <string name="severe_underweight">wygłodzenie, Niezwłocznie skontaktuj się ze specjalistą!</string>
+    <string name="normal">wartość prawidłowa, Nie masz się czym martwić - twój wskaźnik BMI jest w normie</string>
+    <string name="overweight">nadwaga, Czas zacząć się martwić, właśnie przekroczyłeś normę wskaźnika</string>
+    <string name="severely_obese">II stopień otyłości, Powinieneś skontaktować się ze specjalistą</string>
+    <string name="very_severely_obese">III stopień otyłości, Niezwłocznie zgłoś się do specjalisty !</string>
+    <string name="about_text">Cześć, nazywam się Kamil. Jestem studentem informatyki. Mam nadzieje, że podoba Ci się moja aplikacja ;)</string>
+    <string name="about">O autorze:</string>
+    <string name="bmi_charsequence">Twoje BMI wynosi:</string>
+    <string name="bmi_myshare">Moje BMI to:</string>
+    <string name="data_save">Dane zapisane pomyślnie!!</string>
+    <string name="save">zapisz</string>
+    <string name="share">podziel się</string>
+    <string name="share_options">Opcje</string>
+    <string name="your_bmi">Twoje BMI wynosi:</string>
+    <string name="about_toolbar">autor</string>
+    <string name="retype">złe dane, proszę wprowadzić jeszcze raz</string>
+</resources>
