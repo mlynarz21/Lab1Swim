@@ -27,6 +27,7 @@
         android:textColor="@color/green"
         android:textSize="@dimen/small_font"/>
 
+    
     <ImageView
         android:id="@+id/image1"
         android:layout_width="wrap_content"
