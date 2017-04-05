@@ -35,6 +35,6 @@
         android:layout_below="@id/aboutText"
         android:layout_marginTop="@dimen/top_margin"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/and_image"
+        android:src="@drawable/image"
         />
 </RelativeLayout>
